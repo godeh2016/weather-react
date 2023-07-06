@@ -1,84 +1,55 @@
-.card-body {
-  font-family: "Poppins", sans-serif;
-}
-.cities {
-  font-weight: bold;
-}
-#icon {
-  height: 150px;
+.Weather {
+  font-family: arial, sans-serif;
+  border: 1px solid #dadde1;
+  padding: 16px;
+  padding-bottom: 0;
+  border-radius: 4px;
+  color: rgb(44, 42, 42);
+  background-image: url("/src/images/map.jpg");
 }
 
-ul {
+.Weather h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
+}
+
+.Weather ul {
   margin: 0;
   padding: 0;
 }
 
-li {
-  text-transform: capitalize;
-}
-
-.sun-small {
-  font-size: 50px;
-  color: orange;
-}
-.weather-temp {
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 22px;
   list-style: none;
 }
-.temperature {
-  font-size: 75px;
-  font-weight: normal;
+
+.Weather canvas {
+  margin-right: 10px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.Weather .temperature {
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 400;
   position: relative;
-  left: -20px;
+  top: -67px;
+  right: -70px;
 }
 
-.temp-sign,
-.temp-active {
-  font-size: 20px;
+.Weather .unit {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-weight: 400;
   position: relative;
-  text-decoration: none;
-  top: -35px;
-  left: -20px;
-}
-
-#description {
-  text-align: left;
-  font-weight: normal;
-}
-
-.next-five-days {
-  text-align: left;
-  font-weight: 900;
-}
-.cloud-small {
-  font-size: 50px;
-  color: grey;
-}
-.rain-small {
-  font-size: 50px;
-}
-.snow-small {
-  font-size: 50px;
-  color: #00a3d2;
-}
-.author-code {
-  font-family: "Poppins", sans-serif;
-  font-size: 12px;
-  margin: 350px;
-}
-.temp-sign {
-  color: black;
-  font-weight: normal;
-  cursor: default;
-}
-.temp-sign:hover {
-  text-decoration: none;
-}
-.weather-forecast-day {
-  font-size: 15px;
-}
-.weather-forecast-temperatures {
-  font-size: 15px;
-}
-.weather-forecast-temp-min {
-  opacity: 0.5;
+  line-height: 1;
+  top: -100px;
+  right: -70px;
 }
